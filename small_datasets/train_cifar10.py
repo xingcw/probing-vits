@@ -15,14 +15,14 @@ import tensorflow as tf
 import tensorflow_addons as tfa
 from tensorflow import keras
 from tensorflow.keras import mixed_precision
-from vit import (
+from prob_vit import (
     ViTClassifier,
     WarmUpCosine,
     get_augmentation_model,
     get_cifar10_config,
     get_cifar_dataset,
 )
-from vit.utils import logger
+from prob_vit.utils import logger
 
 _AUTO = tf.data.AUTOTUNE
 

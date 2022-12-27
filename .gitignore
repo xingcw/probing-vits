@@ -134,3 +134,7 @@ dmypy.json
 # Misc
 *.npz
 *.txt
+
+# downloaded files
+*.zip
+deit-tf/
